@@ -1,0 +1,40 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+$white: #ffffff;
+
+$theme-colors: (
+    "light":      #d2d9ee,
+    "dark":       #080a6a,
+    "primary":    #001ff7,
+    "secondary":  #ff008e,
+    "info":       #84704f,
+    "success":    #00a15e,
+    "warning":    #e0cb00,
+    "danger":     #ef1d00,
+);
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+/*main css for MKDS Template */
+
+/* Carousel homepage*/
+
+#carouselTemplate .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+/*img accueil tuile*/
+
+.tuile img {
+  height: 30vh;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
