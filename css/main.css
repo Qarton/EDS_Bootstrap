@@ -12179,7 +12179,7 @@ textarea.form-control-lg {
 }
 /*main css for MKDS Template */
 /* Carousel homepage*/
-#carouselTemplate .carousel-item img {
+#carouselIndex .carousel-item img {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
